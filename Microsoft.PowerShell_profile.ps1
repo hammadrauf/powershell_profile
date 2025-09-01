@@ -4,8 +4,14 @@
 # C:\Users\XXX\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 # PS C:\Users\XXX>
 #----
-# New-Item -ItemType File -Path $PROFILE -Force
+# PS C:\ New-Item -ItemType File -Path $PROFILE -Force
 #
+#    Directory: C:\Users\XXX\OneDrive\Documents\PowerShell
+#
+#Mode                 LastWriteTime         Length Name
+#----                 -------------         ------ ----
+#-a---          2025-09-01  7:01 PM              0 Microsoft.PowerShell_profile.ps1
+
 
 # Use VcXserv on Windows
 $env:DISPLAY="127.0.0.1:0.0"
