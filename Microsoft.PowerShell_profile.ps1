@@ -3,6 +3,9 @@
 # PS C:\Users\XXX> echo $PROFILE
 # C:\Users\XXX\Documents\PowerShell\Microsoft.PowerShell_profile.ps1
 # PS C:\Users\XXX>
+#----
+# New-Item -ItemType File -Path $PROFILE -Force
+#
 
 # Use VcXserv on Windows
 $env:DISPLAY="127.0.0.1:0.0"
